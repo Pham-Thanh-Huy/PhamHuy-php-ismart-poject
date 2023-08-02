@@ -1,0 +1,51 @@
+/*STYLE*/
+@import '../public/css/import/fonts.css';
+@import '../public/css/import/global.css';
+@import '../public/css/import/header.css';
+@import '../public/css/import/footer.css';
+@import '../public/css/import/home.css';
+@import '../public/css/import/category_product.css';
+@import '../public/css/import/blog.css';
+@import '../public/css/import/detail_product.css';
+@import '../public/css/import/detail_blog.css';
+@import '../public/css/import/cart.css';
+@import '../public/css/import/checkout.css';
+@import '../public/css/import/about.css';
+
+
+.banner{
+    width: 100%;
+    height: 100%;
+}
+.list-item .product {
+    box-sizing: border-box;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.list-item .product .thumb {
+    height: 50%;
+    overflow: hidden;
+}
+
+.list-item .product img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.list-item .product .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item .product .action a {
+    margin-top: 10px;
+}
+
